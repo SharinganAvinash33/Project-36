@@ -2,7 +2,7 @@ class Food{
     constructor(){
         this.foodStock=0
         this.lastFed=0;
-        this.img=loadImage("images/Milk.png")
+        this.img=loadImage("images/milk.png")
     }
         getFoodStock(){
             this.foodStock=database.ref('Dog/Food/Milk')
